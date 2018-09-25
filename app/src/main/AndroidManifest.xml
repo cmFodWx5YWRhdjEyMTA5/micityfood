@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.verbosetech.cookfu">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDk2OTEoeskW_Fx5bmKkf9Y5fqGlbzBVD8" />
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".activity.CartActivity"
+            android:label="@string/label_cart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".activity.RefineActivity"
+            android:label="@string/label_refine"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".activity.SupportActivity"
+            android:label="@string/label_support"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".activity.ReviewsActivity"
+            android:label="@string/label_reviews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".activity.RestaurantMenuActivity"
+            android:label="@string/label_restaurant_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".rest_detail.RestaurantDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".activity.FoodDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".location.LocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".checkout.CheckoutActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

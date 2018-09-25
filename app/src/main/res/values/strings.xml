@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MiCity Food</string>
+    <string name="splash_message">Because everyone likes \nhome made food</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="openDrawer">Drawer open</string>
+    <string name="closeDrawer">Drawer close</string>
+    <string name="hint_home_search">Search Restaurants or food</string>
+    <string name="label_order">What would you like to order?</string>
+    <string name="label_restaurants">Chefs near you</string>
+    <string name="rs">\u20B9</string>
+    <string name="cart_title">Your cart</string>
+    <string name="search_title">Search</string>
+    <string name="label_refine">Refine</string>
+    <string name="refine_reset_title">Reset</string>
+    <string name="label_cart">Cart</string>
+    <string name="label_support">Contact us</string>
+    <string name="label_reviews">My reviews</string>
+    <string name="date">10\nMay</string>
+    <string name="label_restaurant_menu">Menu</string>
+    <string name="share">Share</string>
+    <string name="sample_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</string>
+    <string name="cod_message">Be ready with enough cash when our delivery guy visits your place</string>
+    <string name="book_a_table">Book a Table</string>
+    <string name="piggy_bank">Piggybank</string>
+    <string name="get_1_1_on_food_or_2_2_on_drinks">Get 1+1 on food or 2+2 on drinks!</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="get_it_now">Get it now</string>
+    <string name="in_a_few_taps">In a few taps</string>
+    <string name="order_food_online">Order Food Online</string>
+    <string name="promo">User Code BITE to get 60% instant OFF on orders upto Rs. 15 on you next order.</string>
+    <string name="current_pincode">Current Pincode</string>
+    <string name="change_location">Change Location</string>
+    <string name="title_location_permission">Location Service</string>
+    <string name="text_location_permission">This app requires location service? Press Ok to accept.</string>
+    <string name="empty_cart">You have nothing in cart. Just choose for our wide variety of delicacies and come back</string>
+
+
+    <!--//Animation-->
+    <dimen name="elevation_header">4dp</dimen>
+    <dimen name="elevation_fab">8dp</dimen>
+
+    <dimen name="size_icon_toolbar">40dp</dimen>
+
+    <integer name="anim_duration_very_long">1500</integer>
+    <integer name="anim_duration_long">500</integer>
+    <integer name="slide_animation_duration">500</integer>
+    <integer name="anim_duration_medium">300</integer>
+</resources>
